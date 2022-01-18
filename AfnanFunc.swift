@@ -8,10 +8,8 @@
 import Foundation
 
 
-func sum( num1 : Int , num2 : Int) -> Int{
+func sum( num1 : Int , num2 : Int , num3 : Int) -> Int{
     
-    print(" resutl : \(num1  + num2 )")
-    var sum = num1 + num2
-    
+    let sum = num2 + num1 + num3
     return sum
 }
