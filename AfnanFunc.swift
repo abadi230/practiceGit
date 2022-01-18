@@ -10,7 +10,7 @@ import Foundation
 
 func sum( num1 : Int , num2 : Int) -> Int{
     
-    print(" resutl : \(num1  + num2 )")
+    print(" resutl : \(num1  - num2 )")
     var sum = num1 + num2
     
     return sum
