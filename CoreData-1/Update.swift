@@ -21,9 +21,6 @@ class Update: UIViewController {
     
     @IBAction func onClickUpdate(_ sender: UIButton) {
         update(obj: person, name: nameOutlet.text!)
-//        let homeVC = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-//
-//        present(homeVC, animated: true, completion: nil)
         dismiss(animated: true, completion: nil)
     }
     
